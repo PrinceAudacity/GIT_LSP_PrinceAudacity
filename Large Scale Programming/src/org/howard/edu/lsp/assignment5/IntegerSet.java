@@ -110,11 +110,4 @@ public class IntegerSet {
     }
 }
 
-// You also need to define the IntegerSetException class:
-class IntegerSetException extends Exception {
-    private static final long serialVersionUID = 1L;
 
-	public IntegerSetException(String message) {
-        super(message);
-    }
-}
